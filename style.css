@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("dogs.jpg");
+    background-size: cover;
+}
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: rgba(134, 128, 134, 0.9);
+  }
+  .logo{
+    padding: 0;
+    margin-left: 100px;
+  }
+
+  .logo h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #e8eaed;
+    margin: 0;
+  }
+
+  .logo h1 svg {
+    margin: 0;
+    fill: #42a5f5; 
+  }
+
+  .logo span {
+    padding: 10px;
+    background: linear-gradient(to right, #42a5f5, #ab47bc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .logo p{
+    margin-top: 0;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(63, 62, 62);
+  }
+
+  .nav-bar {
+    margin-right: 760px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-bar a {
+    padding: 20px;
+    text-decoration: none;
+    color: #42a5f5;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .nav-bar a:hover {
+    color: #ab47bc;
+  }
+.content-1 {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border: 1px solid #ab47bc;
+    border-radius: 25px;
+    width: 30%;
+    height: 20vh;
+    background: linear-gradient(#f3e0f3, #e48fe4);
+    justify-content: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description svg{
+    padding: 10px;
+    margin-top: 20px;
+    fill: rgb(192, 83, 83);
+}
+.description h2{
+    font-size: 30px;
+}
+.content-1 p{
+    margin-top: 0;
+    font-size: 17px;
+    text-align: center;
+}
+.content-2{
+    position: absolute;
+    top: 630px;
+    left: 30px;
+    border: 1px solid #ab47bc;
+    border-radius: 25px;
+    width: 30%;
+    height: 20vh;
+    background: linear-gradient(#daeee0, #89eba4);
+    justify-content: center;
+}
+.content-2 a{
+    text-decoration: none;
+}
+.details{
+    display: flex;
+    justify-content: center;
+}
+.details svg{
+    fill: #42a5f5;
+    margin-top: 20px;
+    padding: 3px;
+}
